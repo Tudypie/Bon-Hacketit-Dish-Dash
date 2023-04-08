@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using REST_API_HANDLER;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Networking;
 using TMPro;
 using System;
@@ -23,7 +24,7 @@ public class OpenAiImageExample : MonoBehaviour
 		resultText.enabled = false;
 		loadingpanel.SetActive(true);
 
-		previewObjs.GetComponent<Renderer>().material.mainTexture = null;
+		//previewObjs.GetComponent<Renderer>().material.mainTexture = null;
 
 		string description = inputText.text;
 		string resolution = "256x256"; // Possible Resolution 256x256, 512x512, or 1024x1024.
@@ -37,7 +38,7 @@ public class OpenAiImageExample : MonoBehaviour
 	public void GenerateImage(string description, string resolution, Action completationAction)
 	{
 
-		GenerateImageRequestModel reqModel = new GenerateImageRequestModel(description, 3 ,resolution);
+		GenerateImageRequestModel reqModel = new GenerateImageRequestModel(description, 1 ,resolution);
 		ApiCall.instance.PostRequest<GenerateImageResponseModel>(IMAGE_GENERTION_API_URL, reqModel.ToCustomHeader(), null, reqModel.ToBody(), (result =>
 		{
 			loadTexture(result.data, completationAction);
@@ -58,7 +59,8 @@ public class OpenAiImageExample : MonoBehaviour
 	async void loadTexture(List<UrlClass> urls, Action completationAction)
     {
 		Texture2D _texture = await GetRemoteTexture(urls[0].url);
-		previewObjs.GetComponent<Renderer>().material.mainTexture = _texture;
+		Sprite generatedImage =  Sprite.Create(_texture, new Rect(0, 0, _texture.width, _texture.height), new Vector2(0.5f, 0.5f), 100f);
+		previewObjs.GetComponent<Image>().sprite = generatedImage;
 		Utility.WriteImageOnDisk(_texture, System.DateTime.Now.Millisecond + "_createImg_" + "_.jpg");
 
 		completationAction.Invoke();

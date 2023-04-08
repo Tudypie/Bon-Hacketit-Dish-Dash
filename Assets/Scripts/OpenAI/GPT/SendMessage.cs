@@ -7,7 +7,7 @@ namespace ChatGPTWrapper {
 
 public class SendMessage : MonoBehaviour
 {   
-    [SerializeField] TMP_InputField prompt;
+    [SerializeField] FoodStorage foodList;
 
     [SerializeField] private ChatGPTWrapper.ChatGPTConversation chatGPTConversation;
 
@@ -15,7 +15,7 @@ public class SendMessage : MonoBehaviour
 
     public void SendToChatGPT(string text)
     {
-        text = prompt.text;
+        text = foodList.foodItemsInStorage;
         
         chatGPTConversation.lastUserMsg = text;
 

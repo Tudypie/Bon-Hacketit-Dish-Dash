@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using TMPro;
 
 public class Timer : MonoBehaviour
@@ -9,6 +10,9 @@ public class Timer : MonoBehaviour
     private float currentTime;
 
     [SerializeField] private TMP_Text timerText;
+
+    [Space]
+    [SerializeField] private UnityEvent onTimerEnd;
 
     private void Start()
     {
@@ -19,5 +23,11 @@ public class Timer : MonoBehaviour
     {
         currentTime -= 1 * Time.deltaTime;
         timerText.text = currentTime.ToString("0");
+
+        if (currentTime <= 0)
+        {
+            onTimerEnd.Invoke();
+            enabled = false;
+        }
     }
 }
