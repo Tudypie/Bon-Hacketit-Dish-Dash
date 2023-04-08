@@ -769,23 +769,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2ac57589594f4f48b41919bc4f25fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prompt: {fileID: 0}
-  chatGPTConversation: {fileID: 0}
-  sendToChatGPT:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1677310526}
-        m_TargetAssemblyTypeName: ChatGPTWrapper.ChatGPTConversation, ChatGPTWrapper
-        m_MethodName: SendToChatGPT
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1496588012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,10 +1148,9 @@ MonoBehaviour:
   lastChatGPTMsg: 
   _chatbotName: Mr. Chef
   _initialPrompt: You are going to be given a list of ingredients. You have to think
-    of a CREATIVE food and invent a ORIGINAL name for it. The name should be understood
-    by a generative-AI so that it can generate an image of that food. After that
-    BRIEFLY describe how to prepare it. The prepare method doesn't have to be precise,
-    but more of a joke and DON'T make it too long.
+    of a CREATIVE food and invent a ORIGINAL name and description for it. The description
+    and the name have to be funny and understandable by a generative AI that will
+    generate an image of the food.
   chatGPTResponse:
     m_PersistentCalls:
       m_Calls:
