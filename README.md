@@ -1,3 +1,3 @@
 # Bon-Hacketit-Dish-Dash
-A game created in a single weekend for the hackathon "Bon Hacketit"
+A game using OpenAI APIs created in a single weekend for the hackathon "Bon Hacketit"
 
