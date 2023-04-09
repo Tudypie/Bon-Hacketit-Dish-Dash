@@ -50,7 +50,7 @@ public class FoodSpawner : MonoBehaviour
         while (overlap != null)
         {
             randomPos = new Vector3(Random.Range(-boxSize.x / 2, boxSize.x / 2), Random.Range(-boxSize.y / 2, boxSize.y / 2), 0f);
-            overlap = Physics2D.OverlapCircle(transform.position + randomPos, 0.3f, obstacleLayer);
+            overlap = Physics2D.OverlapCircle(transform.position + randomPos, 0.4f, obstacleLayer);
         }
 
         Instantiate(foodPrefabs[index], transform.position + randomPos, Quaternion.identity);

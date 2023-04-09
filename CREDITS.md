@@ -1,5 +1,3 @@
-Game Assets Used
-
 Sprites:
 https://ghostpixxells.itch.io/pixel-mart
 https://gummypopcat.itch.io/top-down-game-2d-character-18x18

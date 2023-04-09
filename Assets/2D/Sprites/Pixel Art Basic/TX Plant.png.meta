@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 70d126133e18bb248887071be1f032bd
+guid: c3c48f05ff5cdc64888be4651cf2828d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 2
+    aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -79,43 +79,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 8192
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 8192
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 8192
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -127,7 +91,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -141,379 +105,526 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_0
+      name: TX Plant_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 112
-        width: 4
-        height: 20
+        x: 24
+        y: 359
+        width: 113
+        height: 139
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4faf99e392691344bb0aeeeb0dbd142
-      internalID: 2050530206
+      spriteID: 5570ced445a496d449efddaef067979b
+      internalID: -2030768034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_1
+      name: TX Plant_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 128
-        width: 20
-        height: 4
+        x: 161
+        y: 344
+        width: 97
+        height: 151
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b78bc8e209f7e4945a87631a6537c3ee
-      internalID: 1160150744
+      spriteID: 7daeef80c1e67fc4f9438158e458c08d
+      internalID: 148117834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_2
+      name: TX Plant_2
       rect:
         serializedVersion: 2
-        x: 12
-        y: 64
-        width: 4
-        height: 48
+        x: 295
+        y: 361
+        width: 79
+        height: 120
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b45c9fd33ee14246ab6c131a7085bf2
-      internalID: -1292829846
+      spriteID: d020b2dd050817f49aca73d9d2cc240c
+      internalID: 486172593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_3
+      name: TX Plant_3
       rect:
         serializedVersion: 2
-        x: 12
-        y: 47
-        width: 4
-        height: 17
+        x: 38
+        y: 295
+        width: 22
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 234919ca8d945dd44b3ce600b4f97e60
-      internalID: -1589131699
+      spriteID: c2a29efb817b142438a8c1da1b896145
+      internalID: 804869210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_6
+      name: TX Plant_4
       rect:
         serializedVersion: 2
-        x: 62
-        y: 12
-        width: 26
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7abee870d445ed4784d9e04c15f2b69
-      internalID: 330791382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_7
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 68
-        width: 62
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57cfd3d565a893d43850b5bc4fccb60d
-      internalID: -666322324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_8
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 63
-        width: 64
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53925147b4c3dad4694c58ea28bc24d3
-      internalID: 1580629462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_9
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 17
-        width: 62
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6078eee3314a97240b7f4eb5c2117943
-      internalID: -2125406631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_10
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 17
-        width: 62
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8817606c9ae90a5448f689c43fc8ea46
-      internalID: -179024954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_11
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 17
-        width: 62
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d021b82afa073f143beffe445ca5042b
-      internalID: -370189796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_12
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5ef9419fb5a7944295946d58d6af2ef
-      internalID: 1073176018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_13
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 64
-        width: 62
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aec68de1453cf2445baa00e5a71fcd69
-      internalID: -1958672907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_14
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 103
-        width: 64
+        x: 98
+        y: 292
+        width: 27
         height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d0bea828fdce414f821a460519d8dff
-      internalID: -1736987086
+      spriteID: 6ef40b6f6bd517e4b837e2c0155bb301
+      internalID: -768271162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_15
+      name: TX Plant_5
       rect:
         serializedVersion: 2
-        x: 144
-        y: 66
-        width: 64
-        height: 62
+        x: 156
+        y: 290
+        width: 38
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8032cd00999719c42903a884768523a3
-      internalID: -657974396
+      spriteID: bd3d4f2d8456da1479deb9ae6c3e403a
+      internalID: -360080374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_16
+      name: TX Plant_6
       rect:
         serializedVersion: 2
-        x: 80
-        y: 93
-        width: 64
+        x: 216
+        y: 285
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a29075cdabf924fa582ac9c1b443a5
+      internalID: 1526509835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_7
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 281
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d81e38c08bda2343b75a6a63eb878e5
+      internalID: 2130676856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_8
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 287
+        width: 40
         height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f32b6008851f43c408e30d9921fb90f1
-      internalID: 17747377
+      spriteID: 9ea3bbe4a72fe5f4f8898ebb88866d73
+      internalID: 1275740404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_17
+      name: TX Plant_9
       rect:
         serializedVersion: 2
-        x: 80
-        y: 63
-        width: 64
-        height: 30
+        x: 8
+        y: 109
+        width: 17
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c807917568d487409892fc4c79f6a5a
-      internalID: 855740993
+      spriteID: bed6fa460509a034b8b184953fb4cec5
+      internalID: -519581653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_18
+      name: TX Plant_10
       rect:
         serializedVersion: 2
-        x: 144
-        y: 63
-        width: 64
-        height: 3
+        x: 41
+        y: 108
+        width: 16
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfcd5a0a534a0ad4ab1ff2e595ca2b28
-      internalID: -59593385
+      spriteID: 7a3f873bab11a26479a5a1ae7d69f8fe
+      internalID: -593428667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FloorsAndWalls_19
+      name: TX Plant_11
       rect:
         serializedVersion: 2
-        x: 209
-        y: 17
-        width: 62
-        height: 46
+        x: 73
+        y: 108
+        width: 15
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 957a48470cdbe944ea496ea90c147584
-      internalID: -61505501
+      spriteID: f765106987930734f8d1c46bd41677b3
+      internalID: -1676325299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 107
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d985f2e36562354eb3bb05d9deea242
+      internalID: 1740538119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 76
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040ad4ec68c2144489f496c5420978dd
+      internalID: -464388678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 76
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31aa26b0b8d90c4f9cf27268369cdb0
+      internalID: 718818016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 76
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f64c328d959114a9878c0309d42a0d
+      internalID: 732188750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 77
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0713eacc2dd55f34cbc5ddec2ea11cfe
+      internalID: -267106196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 45
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1203efec7cdaf364690b801da5ecb1bc
+      internalID: -1357787714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 44
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d8a56fc98867f4babb712548de4547
+      internalID: -1833241362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_19
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 43
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def064f529ff2414dbc322dd9ddb79ef
+      internalID: -1355493341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_20
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 44
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8e488a55c82e444b4f4896a6e0ef9a
+      internalID: 606092675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5424829a1c858ee4a926f8dd76fc462c
+      internalID: -1091074827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_22
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 10
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fbedcb894f0494ba2f4c9401b09220
+      internalID: -449544342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_23
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 11
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf61522d121dda47a55a49d7fd7dc9f
+      internalID: -1392430743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Plant_24
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 12
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cc5bbf1da5c304fab95c2136dedd6c
+      internalID: -1042439228
       vertices: []
       indices: 
       edges: []
@@ -521,7 +632,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 6b4724bfc02fde344956f7e59c83e1b3
     internalID: 0
     vertices: []
     indices: 
@@ -529,26 +640,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TopDownHouse_FloorsAndWalls_0: 2050530206
-      TopDownHouse_FloorsAndWalls_1: 1160150744
-      TopDownHouse_FloorsAndWalls_10: -179024954
-      TopDownHouse_FloorsAndWalls_11: -370189796
-      TopDownHouse_FloorsAndWalls_12: 1073176018
-      TopDownHouse_FloorsAndWalls_13: -1958672907
-      TopDownHouse_FloorsAndWalls_14: -1736987086
-      TopDownHouse_FloorsAndWalls_15: -657974396
-      TopDownHouse_FloorsAndWalls_16: 17747377
-      TopDownHouse_FloorsAndWalls_17: 855740993
-      TopDownHouse_FloorsAndWalls_18: -59593385
-      TopDownHouse_FloorsAndWalls_19: -61505501
-      TopDownHouse_FloorsAndWalls_2: -1292829846
-      TopDownHouse_FloorsAndWalls_3: -1589131699
-      TopDownHouse_FloorsAndWalls_4: 869104343
-      TopDownHouse_FloorsAndWalls_5: 747632013
-      TopDownHouse_FloorsAndWalls_6: 330791382
-      TopDownHouse_FloorsAndWalls_7: -666322324
-      TopDownHouse_FloorsAndWalls_8: 1580629462
-      TopDownHouse_FloorsAndWalls_9: -2125406631
+      TX Plant_0: -2030768034
+      TX Plant_1: 148117834
+      TX Plant_10: -593428667
+      TX Plant_11: -1676325299
+      TX Plant_12: 1740538119
+      TX Plant_13: -464388678
+      TX Plant_14: 718818016
+      TX Plant_15: 732188750
+      TX Plant_16: -267106196
+      TX Plant_17: -1357787714
+      TX Plant_18: -1833241362
+      TX Plant_19: -1355493341
+      TX Plant_2: 486172593
+      TX Plant_20: 606092675
+      TX Plant_21: -1091074827
+      TX Plant_22: -449544342
+      TX Plant_23: -1392430743
+      TX Plant_24: -1042439228
+      TX Plant_3: 804869210
+      TX Plant_4: -768271162
+      TX Plant_5: -360080374
+      TX Plant_6: 1526509835
+      TX Plant_7: 2130676856
+      TX Plant_8: 1275740404
+      TX Plant_9: -519581653
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
