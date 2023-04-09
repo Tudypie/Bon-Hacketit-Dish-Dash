@@ -1,5 +1,5 @@
 # Bon-Hacketit-Dish-Dash
-A game using OpenAI APIs created in a single weekend for the hackathon "Bon Hacketit"
+A game using OpenAI APIs created in a single weekend for the hackathon "Bon Hacketit".
 The API Keys were removed from the project.
 
 Created with the help of the following github repositories:
