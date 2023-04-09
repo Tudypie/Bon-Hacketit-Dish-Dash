@@ -7,8 +7,8 @@ using UnityEngine;
 public class Utility : MonoBehaviour
 { 
 
-    public static string API_KEY = "sk-xxxxxxx";
-    public static string ORGANIZATION_KEY = "org-xxxxxxx";
+    public static string API_KEY = "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";
+    public static string ORGANIZATION_KEY = "org-mdFDNqvoc0mqRLOXvyz33BeW";
 
     public static readonly string resolution_256 = "256x256"; // Possible Resolution 256x256, 512x512, or 1024x1024.
     public static readonly string resolution_512 = "512x512";
