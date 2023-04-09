@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using REST_API_HANDLER;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 using UnityEngine.Networking;
 using TMPro;
 using System;
@@ -15,6 +16,7 @@ public class OpenAiImageExample : MonoBehaviour
 	public TMP_Text inputText;
 	public TMP_Text resultText;
 	public GameObject previewObjs;
+	public UnityEvent onGeneratedImage;
 
 	private string IMAGE_GENERTION_API_URL = "https://api.openai.com/v1/images/generations";
 
@@ -64,6 +66,7 @@ public class OpenAiImageExample : MonoBehaviour
 		Utility.WriteImageOnDisk(_texture, System.DateTime.Now.Millisecond + "_createImg_" + "_.jpg");
 
 		completationAction.Invoke();
+		onGeneratedImage?.Invoke();
 	}
 
 	public static async Task<Texture2D> GetRemoteTexture(string url)
