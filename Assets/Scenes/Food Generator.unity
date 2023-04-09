@@ -1046,6 +1046,9 @@ MonoBehaviour:
   inputText: {fileID: 1913059937}
   resultText: {fileID: 891402401}
   previewObjs: {fileID: 484420407}
+  onGeneratedImage:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &954620998
 Transform:
   m_ObjectHideFlags: 0
@@ -1356,7 +1359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7280c3f01e5fd948b665d931307339d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prompt: {fileID: 1548267918}
+  foodList: {fileID: 0}
   chatGPTConversation: {fileID: 1677310526}
   sendToChatGPT:
     m_PersistentCalls:
@@ -1580,7 +1583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _useProxy: 0
   _proxyUri: 
-  _apiKey: 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
+  _apiKey: 
   _model: 1
   _maxTokens: 1000
   _temperature: 0.5
