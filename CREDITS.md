@@ -1,6 +1,7 @@
 Sprites:
 https://ghostpixxells.itch.io/pixel-mart
 https://gummypopcat.itch.io/top-down-game-2d-character-18x18
+https://cainos.itch.io/pixel-art-top-down-basic
 
 Music:
 OMW to beat the big bad by Fupi (https://opengameart.org/users/fupi)
